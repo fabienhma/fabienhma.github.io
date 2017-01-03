@@ -1,0 +1,172 @@
+@font-face {
+	font-family: 'GoodDog';
+	src: url(../fonts/gooddog.otf);
+}
+
+@font-face {
+    font-family:'QuickSand';
+    src: url(../fonts/quicksand-regular.otf);
+}
+
+@font-face {
+    font-family:'QuickSandBold';
+    src: url(../fonts/quicksand-bold.otf);
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#upper-panel{
+    background-color:rgba(0, 41, 122, 0.7);
+    opacity:20%;
+    align-items: center;
+    position:fixed;
+    display:block;
+    height: 8%;
+    width: 100%;
+	margin: 0px;
+    padding: 0px;
+	color: #000;
+    color:whitesmoke;
+    font-family:'QuickSand';
+    z-index:20;;
+    background-size:cover;
+    background-repeat:no-repeat;
+    
+}
+
+#upper-panel li{
+    display:inline;
+    float:left;
+    display:block;
+    width: 19%;
+    height:auto;
+    text-align:left;
+    font-size:1.3vw;
+}
+
+.logo{
+    height:2vw;
+    width:2vw;
+    border-radius:55px;
+    float:left;
+    border:1px solid rgba(255, 242, 242, 0.70);
+}
+#upper-panel a:link{
+    text-decoration: none;
+    color:whitesmoke;
+}
+#upper-panel a:visited{
+    text-decoration:none;   
+    color:whitesmoke;
+}
+#upper-panel a:hover{
+    font-family:'QuickSandBold';
+}
+
+#bottom{
+    text-align:center;
+    font-family:"QuickSand";
+    position:fixed;
+    float:left;
+    left:45%;
+    top:98%;
+    color:whitesmoke;
+    font-size:10px;
+    z-index:99;
+}
+
+.sitetext{
+    font-family:"QuickSand";
+    font-size:14px;
+    color:white;
+    display:block;
+    position:absolute;
+    width: 50%;
+    height: 700px;
+    padding-top: 300px;
+    margin-left: 24%;
+    padding-left: 1%;
+    z-index:19;
+    opacity:20%;
+    /*align-items: center;*/
+    background-color: rgba(0, 0, 0, 0.7);
+    font-family:'QuickSand';
+    z-index:20;;
+}
+
+.sitetext a:link{
+    text-decoration: underline;
+    color:white;
+}
+.sitetext a:visited{
+    text-decoration:none;   
+    color:blue;
+}
+.sitetext a:hover{
+    font-family:'QuickSandBold';
+}
+
+#home{
+    width:100%;
+    height:1000px;
+    position:absolute;
+    vertical-align:baseline;
+    z-index:-1;
+    background-color: black;
+    background-size:cover;
+    background-image: url(../backgroundimages/black-blue-pattern.jpg);
+    background-repeat:no-repeat;
+}
+
+#aboutproj{
+    width:100%;
+    height:1000px;
+    position:absolute;
+    vertical-align:baseline;
+    z-index:-1;
+    background-color:grey;
+    background-size:cover;
+    background-image: url("https://scontent-lga1-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/189168_498654150146795_2136231450_n.jpg?oh=232fedc9409dddd9d53d44ce4a55477c&oe=565CFE9A");
+    background-repeat:no-repeat
+}  
+
+#projects{
+    width:100%;
+    height:1000px;
+    position:absolute;
+    vertical-align:baseline;
+    z-index:-1;
+    background-color:orangered;
+    background-size:cover;
+    background-image: url("https://scontent-lga1-1.xx.fbcdn.net/hphotos-xaf1/t31.0-8/339137_3938345015943_1325490709_o.jpg");
+    background-repeat:no-repeat
+
+}
+
+#aboutme{
+    width:100%;
+    height:1000px;
+    position:absolute;
+    vertical-align:baseline;
+    z-index:-1;
+    background-color:darkviolet;
+    background-size:cover;
+    background-image: url("https://scontent-lga1-1.xx.fbcdn.net/hphotos-xap1/t31.0-8/980268_10151506154609164_1910575239_o.jpg");
+    background-repeat:no-repeat
+}
+
+#contact{
+    width:100%;
+    height:1000px;
+    position:absolute;
+    vertical-align:baseline;
+    z-index:-1;
+    background-color:forestgreen;
+    background-size:cover;
+    background-image: url("https://scontent-lga1-1.xx.fbcdn.net/hphotos-xpt1/v/t1.0-9/10523785_10204016426315436_9214153168448732561_n.jpg?oh=edd1bc17afd287d5c2b426ad4d5bff9a&oe=56AA08F7");
+    background-repeat:no-repeat 
+}
