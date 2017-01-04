@@ -27,8 +27,8 @@ a:hover {
 html,
 body {
   height: 100%;
-  /* background-color: #333;*/
-  background-image: 'img/lightsbg.jpg';
+  background-color: rgba(1, 31, 117, 0.68)
+  background-image: '../img/lightsbg.jpg';
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
