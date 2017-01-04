@@ -5276,7 +5276,7 @@ a.list-group-item:focus,
 button.list-group-item:focus {
   color: #555;
   text-decoration: none;
-  background-color: #f5f5f5;
+  /*background-color: #f5f5f5;*/
 }
 button.list-group-item {
   width: 100%;
@@ -5340,7 +5340,7 @@ button.list-group-item-success:hover,
 a.list-group-item-success:focus,
 button.list-group-item-success:focus {
   color: #3c763d;
-  background-color: #d0e9c6;
+  /*background-color: #d0e9c6;*/
 }
 a.list-group-item-success.active,
 button.list-group-item-success.active,
@@ -5349,12 +5349,12 @@ button.list-group-item-success.active:hover,
 a.list-group-item-success.active:focus,
 button.list-group-item-success.active:focus {
   color: #fff;
-  background-color: #3c763d;
+  /*background-color: #3c763d;*/
   border-color: #3c763d;
 }
 .list-group-item-info {
   color: #31708f;
-  background-color: #d9edf7;
+  /*background-color: #d9edf7;*/
 }
 a.list-group-item-info,
 button.list-group-item-info {
@@ -5369,7 +5369,7 @@ button.list-group-item-info:hover,
 a.list-group-item-info:focus,
 button.list-group-item-info:focus {
   color: #31708f;
-  background-color: #c4e3f3;
+  /*background-color: #c4e3f3;*/
 }
 a.list-group-item-info.active,
 button.list-group-item-info.active,
@@ -5378,7 +5378,7 @@ button.list-group-item-info.active:hover,
 a.list-group-item-info.active:focus,
 button.list-group-item-info.active:focus {
   color: #fff;
-  background-color: #31708f;
+  /*background-color: #31708f;*/
   border-color: #31708f;
 }
 .list-group-item-warning {
@@ -5387,7 +5387,7 @@ button.list-group-item-info.active:focus {
 }
 a.list-group-item-warning,
 button.list-group-item-warning {
-  color: #8a6d3b;
+  /*color: #8a6d3b;*/
 }
 a.list-group-item-warning .list-group-item-heading,
 button.list-group-item-warning .list-group-item-heading {
@@ -5407,7 +5407,7 @@ button.list-group-item-warning.active:hover,
 a.list-group-item-warning.active:focus,
 button.list-group-item-warning.active:focus {
   color: #fff;
-  background-color: #8a6d3b;
+  /*background-color: #8a6d3b;*/
   border-color: #8a6d3b;
 }
 .list-group-item-danger {
