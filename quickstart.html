@@ -55,16 +55,17 @@
       function loadSheetsApi() {
         var discoveryUrl =
             'https://sheets.googleapis.com/$discovery/rest?version=v4';
-        gapi.client.load(discoveryUrl).then(listMajors);
+        gapi.client.load(discoveryUrl).then(parseWorkoutPlan);
       }
 
       /**
        * Print the names and majors of students in a sample spreadsheet:
        * https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
        */
-      function listMajors() {
+      function parseWorkoutPlan() {
+        var sheetID = prompt('Please input your google sheet ID');
         gapi.client.sheets.spreadsheets.values.get({
-          spreadsheetId: '1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms',
+          spreadsheetId: sheetID,
           range: 'Class Data!A2:E',
         }).then(function(response) {
           var range = response.result;
