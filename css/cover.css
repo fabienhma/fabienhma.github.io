@@ -28,7 +28,7 @@ html,
 body {
   height: 100%;
   background-color: rgba(1, 31, 117, 0.68);
-  background-image: url('../img/lightsbg.jpg');
+  background-image: url('https://fabienhma.github.io/img/lightsbg.jpg');
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
