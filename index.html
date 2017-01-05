@@ -34,6 +34,7 @@
       $('[id*="tab-"]').click(function (e) {
         e.preventDefault()
         $(this).tab('show')
+        console.log("got into the function??!!");
     
         if(this.id=="tab-home"){
           $('body').css('box-shadow', 'inset 0 0 0 1000px rgba(1,31,117,.4)');
