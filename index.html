@@ -84,6 +84,9 @@
       </div>
 
     </div>
+    
+
+    
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -93,17 +96,22 @@
         e.preventDefault()
         $(this).tab('show')
     
-        if(this.id=="tab-1"){
-          $('body').css('background', 'red');
+        if(this.id=="home"){
+          $('body').css('box-shadow', 'inset 0 0 0 1000px rgba(1,31,117,.4)');
+          $('body').css('background-image', 'url("https://fabienhma.github.io/img/lightsbg.jpg")');
         }
-        else if(this.id=="tab-2"){
-          $('body').css('background', 'green');
+        else if(this.id=="about"){
+          $('body').css('box-shadow', 'inset 0 0 0 1000px rgba(43,102,47,.4)');
+          $('body').css('background-image', 'url("https://fabienhma.github.io/img/bigface.jpg")');
+          $('body').css('text-align','left');
         }
-        else if(this.id=="tab-3"){
-          $('body').css('background', 'blue');
+        else if(this.id=="projects"){
+          $('body').css('box-shadow', 'inset 0 0 0 1000px rgba(70,2,112,.4)');
+          $('body').css('text-align','left');
         }
-        else if(this.id=="tab-4"){
-          $('body').css('background', 'purple');
+        else if(this.id=="contact"){
+          $('body').css('box-shadow', 'inset 0 0 0 1000px rgba(91,30,30,.4)');
+          $('body').css('text-align','left');
         }
     });
     </script>
