@@ -32,6 +32,9 @@
     <!-- Lets us change the backgroun images on tabs -->
     <script type="text/javascript">
       $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+        
         if(this.id=="tab-home"){
           $('body').css('box-shadow', 'inset 0 0 0 1000px rgba(1,31,117,.4)');
           $('body').css('background-image', 'url("https://fabienhma.github.io/img/lightsbg.jpg")');
