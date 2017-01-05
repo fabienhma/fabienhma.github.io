@@ -88,6 +88,25 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script>
+      $('[id*="tab-"]').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+    
+        if(this.id=="tab-1"){
+          $('body').css('background', 'red');
+        }
+        else if(this.id=="tab-2"){
+          $('body').css('background', 'green');
+        }
+        else if(this.id=="tab-3"){
+          $('body').css('background', 'blue');
+        }
+        else if(this.id=="tab-4"){
+          $('body').css('background', 'purple');
+        }
+    });
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
