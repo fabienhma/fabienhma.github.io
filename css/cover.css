@@ -141,7 +141,7 @@ body {
  * Affix and center
  */
 
-@media (min-width: 801px) {
+@media (min-width: 1000px) {
   /* Pull out the header and footer */
   .masthead {
     position: fixed;
