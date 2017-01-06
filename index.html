@@ -102,6 +102,7 @@
       $('[id*="tab-"]').click(function (e) {
         e.preventDefault()
         $(this).tab('show')
+        console.log("got in boys");
 
         if(this.id=="tab-home"){
           console.log("switching to tab-home");
