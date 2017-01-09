@@ -55,6 +55,8 @@ body {
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
+  width: 70%;
+  height: 65%;
 }
 .cover-container {
   margin-right: auto;
