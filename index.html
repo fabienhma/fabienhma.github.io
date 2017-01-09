@@ -34,7 +34,16 @@
         -webkit-border-radius: 10px;
         border-radius: 10px;
       }
-
+      
+      ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: rgba(255,0,0,0.8); 
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+      }
+      ::-webkit-scrollbar-thumb:window-inactive {
+        background: rgba(0,0,0,0.5); 
+      }
 
     </style>
 
@@ -81,12 +90,12 @@
             <p> In my free time, I am a redditor trying to absorb as much information as possible, a powerlifter fighting with Brown administration to start a club, an aspiring chef trying to make the most out of his meal plan, a volleyball player who is best at setting but is always yearning to hit, a beatboxer constantly in awe of the vocal talent of his a cappella group, Harmonic Motion, and a pretty bad gamer trying to climb the ranks of Overwatch and Hearthstone.</p>
 
           </div>
-          <div id="projects" class="tab-pane fade pre-scrollable" style="height: 50%; bottom: -10%; padding-left: 5%; padding-right: 5%; text-align: justify">
+          <div id="projects" class="tab-pane fade" style="height: 50%; bottom: -10%; padding-left: 5%; padding-right: 5%; text-align: justify">
             <h3> <strong> Here's some of the stuff I've been doing in my free time: <strong></h3>
             <p>I heard that the TSA once paid IBM a whopping 1.4 million dollars... <strong><a href="http://www.geek.com/apps/tsa-paid-1-4-million-for-randomizer-app-that-chooses-left-or-right-1651337/"> for a randomizer app</a></strong>.   So I decided to make one, too.</p>
             <button id="leftOrRight" type="button" class="btn btn-default">Left or Right?</button>
           </div>
-          <div id="contact" class="tab-pane fade pre-scrollable" style="height: 50%; bottom: -10%; padding-left: 5%; padding-right: 5%; text-align: left; font-size: 1.2em">
+          <div id="contact" class="tab-pane fade" style="height: 50%; bottom: -10%; padding-left: 5%; padding-right: 5%; text-align: left; font-size: 1.2em">
             <h3> I'm best reached by email: </h3>
             <p><a href="mailto: fabienhma@gmail.com"> fabienhma@gmail.com</a>
             <br> or
