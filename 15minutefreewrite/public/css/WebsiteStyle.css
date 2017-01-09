@@ -1,0 +1,215 @@
+@font-face {
+	font-family: 'GoodDog';
+	src: url(../fonts/gooddog.otf);
+}
+
+@font-face {
+    font-family:'QuickSand';
+    src: url(../fonts/quicksand-regular.otf);
+}
+
+@font-face {
+    font-family:'QuickSandBold';
+    src: url(../fonts/quicksand-bold.otf);
+}
+@font-face {
+    font-family:'Anonymous';
+    src: url(../fonts/NotCourierSans.otf);
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+fieldset{
+    border:none;
+}
+
+#upper-panel{
+    background-color:rgba(0, 41, 122, 0.7);
+    opacity:20%;
+    align-items: center;
+    position:absolute;
+    display:block;
+    height: 17%;
+    width: 100%;
+	margin: 0px;
+    padding: 0px;
+    color:whitesmoke;
+    font-family:'QuickSand';
+    z-index:20;;
+    background-size:cover;
+    background-repeat:no-repeat;
+    
+}
+#upper-panel p{
+    text-align: center;
+    font-size:1vw;
+}
+
+#upper-panel h1{
+    text-align: left;
+    font-size:2.1vw;
+}
+#upper-panel li{
+    display:inline;
+    float:left;
+    display:block;
+    width: 19%;
+    height:auto;
+    text-align:left;
+    font-size:1.3vw;
+}
+
+.logo{
+    height:2vw;
+    width:2vw;
+    border-radius:55px;
+    float:left;
+    border:1px solid rgba(255, 242, 242, 0.70);
+}
+#upper-panel a:link{
+    text-decoration: none;
+    color:whitesmoke;
+}
+#upper-panel a:visited{
+    text-decoration:none;   
+    color:whitesmoke;
+}
+#upper-panel a:hover{
+    font-family:'QuickSandBold';
+}
+
+#bottom{
+    text-align:center;
+    font-family:"QuickSand";
+    position:fixed;
+    float:left;
+    left:45%;
+    top:98%;
+    color:black;
+    font-size:10px;
+}
+
+.sitetext{
+    font-family:"QuickSand";
+    font-size:14px;
+    color:black;
+    display:block;
+    position:absolute;
+    width: 75%;
+    padding-top: 10%;
+    padding-left: 12.5%;
+    z-index:19;
+    opacity:20%;
+    align-items: center;
+    font-family:'QuickSand';
+    z-index:20;;
+    padding-bottom: 5%;
+    word-wrap: break-word;
+}
+
+.sitetext a:link{
+    text-decoration: underline;
+    color:black;
+}
+.sitetext a:visited{
+    text-decoration:none;
+    color:black; 
+}
+.sitetext a:hover{
+    font-family:'QuickSandBold';
+}
+
+.sitetext td a:hover{
+    font-family:'helvetica';
+}
+
+#home{
+    width:100%;
+    height:1000px;
+    position:absolute;
+    vertical-align:baseline;
+    z-index:-1;
+    background-color: black;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+#aboutproj{
+    width:100%;
+    height:1000px;
+    position:absolute;
+    vertical-align:baseline;
+    z-index:-1;
+    background-color:grey;
+    background-size:cover;
+    background-repeat:no-repeat
+}  
+
+#projects{
+    width:100%;
+    height:1000px;
+    position:absolute;
+    vertical-align:baseline;
+    z-index:-1;
+    background-color:orangered;
+    background-size:cover;
+    background-repeat:no-repeat
+}
+
+#aboutme{
+    width:100%;
+    height:1000px;
+    position:absolute;
+    vertical-align:baseline;
+    z-index:-1;
+    background-color:darkviolet;
+    background-size:cover;
+    background-repeat:no-repeat
+}
+
+#contact{
+    width:100%;
+    height:1000px;
+    position:absolute;
+    vertical-align:baseline;
+    z-index:-1;
+    background-color:forestgreen;
+    background-size:cover;
+    background-repeat:no-repeat 
+}
+
+input{
+    font-family:"QuickSand";
+}
+
+textarea #whiteonblack{
+    width: 60%;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+#center{
+    text-align: center;
+    left:50%;
+    font-family:"QuickSand";
+    font-size:30px;
+}
+
+#freewrite{
+    border: none;
+    font-family: "QuickSand";
+    background-color: white;
+    color: black;
+    font-size:15px;
+}
+
+.button{
+    text-align: center;
+    font-family:"Quicksand";
+    font-size:13px;
+    font-weight:bolder;
+}
