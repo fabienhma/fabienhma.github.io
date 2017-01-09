@@ -1,10 +1,10 @@
 <?php
 	// TODO: Logged in page: portfolio.  Need a page that displays previous freewrites, too
-	require("../includes/config.php");
+	require("includes/config.php");
 
 	if (empty($_SESSION["id"]))
 	{
-		render("login_form.php");
+		render("public/login_form.php");
 	}
 	else
 	{
