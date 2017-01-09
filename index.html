@@ -110,6 +110,22 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
+    
+    <script type="text/javascript">
+      $('[id="leftOrRight"]').click(function (e) {
+        var randNum = Math.random();
+
+        if (randNum > 0.5) {
+          alert("Left");
+        } else {
+          alert("Right");
+        }
+
+      });
+
+
+    </script>
+
 
     <!-- Lets us change the backgroun images on tabs -->
     <script type="text/javascript">
